@@ -6,6 +6,10 @@ def time(n):
     `print countdown(n)`"""
     steps = 0
     # YOUR CODE HERE
+    # check for while condition, run two things in while loop = 3
+    # declare y, print y = 2
+    # x divided by 5 until 0, so we have n / 5
+    steps += 3 + 2 * math.ceil(n / 5.0) # in one iteration, it has 5 steps
     return steps
 
 def countdown(x):
@@ -16,3 +20,7 @@ def countdown(x):
     print(y)
 
 print(countdown(50))
+# print(time(50))
+
+# print(countdown(15))
+# print(countdown(1))
